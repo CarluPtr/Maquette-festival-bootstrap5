@@ -1,0 +1,43 @@
+.poster {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.post-img {
+  width: 100%;
+  height: 7vw;
+  object-fit: cover;
+}
+
+
+.truncate{
+  display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+@media (max-width: 991.98px) { 
+  .poster {
+    height: 50vw;
+  }
+  .post-img {
+    height: 14vw;
+  }
+}
+
+@media (max-width: 767.98px) { 
+  .poster {
+    height: 125vw;
+  }
+  .card{
+    width: 100%;
+  }
+  .post-img {
+    height: 37vw;
+  }
+ }
